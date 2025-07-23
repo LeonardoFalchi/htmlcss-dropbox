@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+.section-container {
+    width: 60%;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
 
 /* header */
 .nav-bar {
@@ -40,7 +46,7 @@
 
 
 .jumbotron-container {
-    width: 80%;
+    width: 70%;
     height: 500px;
     margin: 0 auto;
    
@@ -63,12 +69,57 @@
 
 
 /* contenuto principale */
-.section-container {
-    width: 70%;
-    margin: 0 auto;
+
+
+/*prima sezione*/
+
+.first-grid .row {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px ;
+}
+
+.first-grid .col {
+    width: calc((100% / 3) - 100px /3);
+
+    /* debug*/
+    background-color: red;
+    height: 300px;
+}
+
+.col-bottom {
+    width: 100%;
+    /* debug*/
+    background-color: red;
+    height: 150px;
 
 }
 
+
+/*seconda sezione*/
+.second-section {
+    display: flex;
+    justify-content: center;
+}
+
+
+.big-container {
+    width: 60%;
+    /* debug*/
+    background-color: blueviolet;
+    height: 150px;
+}
+
+.small-container {
+    width: 40%;
+    /* debug*/
+    background-color: blueviolet;
+    height: 150px;
+}
+
+
+/*terza sezione*/
 .second-grid .row {
 
     display: flex;
@@ -82,4 +133,36 @@
     /* debug*/
     background-color: red;
     height: 300px;
+}
+
+
+/*FOOTER*/
+.footer-container {
+    background-color: black;
+    padding-top: 50px;
+    color: white;
+    
+}
+
+.footer-top {
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+.nav-footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-block {
+    
+}
+
+.footer-bottom {
+    width: 70%;
+    margin: 0 auto;
+    height: 100px;
+    display: flex;
+    align-items: center;
 }
