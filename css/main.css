@@ -1,0 +1,85 @@
+/* generali */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header */
+.nav-bar {
+    height: 80px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-left {
+    width: 50%;
+    
+}
+
+.nav-right {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+
+
+
+
+/* jumbotron */
+.jumbotron {
+    background-color: #b4cfe7;
+    width: 100%;
+    height: 500px;
+    
+
+}
+
+
+.jumbotron-container {
+    width: 80%;
+    height: 500px;
+    margin: 0 auto;
+   
+}
+
+.jumbotron-bottom {
+    display: flex;
+    justify-content: center;
+}
+
+.sx-jumbotron {
+    width: 30%;
+    background-color: blue;
+}
+
+.dx-jumbotron {
+    width: 70%;
+    background-color: blue;
+}
+
+
+/* contenuto principale */
+.section-container {
+    width: 70%;
+    margin: 0 auto;
+
+}
+
+.second-grid .row {
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px ;
+}
+
+.second-grid .col {
+    width: calc((100% / 3) - 100px /3);
+
+    /* debug*/
+    background-color: red;
+    height: 300px;
+}
