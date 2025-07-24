@@ -4,15 +4,12 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
 .link-normale {
     text-decoration: none;
     color: black;
 }
-
-
 
 body {
     font-family:"Open Sans", sans-serif;
@@ -25,19 +22,24 @@ body {
     margin-bottom: 50px;
 }
 
+ul {
+    list-style: none;
+}
+
 /* header */
 .nav-bar {
     height: 80px;
+    width: 100%;
     background-color: white;
     display: flex;
     align-items: center;
     position: fixed;
     z-index: 100;
-    width: 100%;
 }
 
 .nav-left {
     width: 50%;
+    height: 100%;
     display: flex;
     align-items: center;
 }
@@ -51,20 +53,26 @@ body {
 .nav-left ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 41%;
+    height: 100%;
     list-style: none;
 }
 
 .nav-right {
     width: 50%;
+    height: 100%;
     display: flex;
     justify-content: flex-end;
+    align-items: center;
 }
 
 .nav-right ul {
     display: flex;
     justify-content: space-between;
+    align-items: center;
     width: 61%;
+    height: 100%;
     list-style: none;
 }
 
@@ -127,14 +135,28 @@ h1 {
 
 
 /*prima sezione*/
-h2 ,
 .fatturazione {
     padding-bottom: 50px;
+    padding-top: 50px;
+    display: flex;
+    align-items: center;
+
 }
+
+input {
+    margin: 3px;
+}
+
+label {
+    margin-right: 40px;
+}
+
+
 
 .titolo-col {
     display: flex;
     justify-content: center;
+    align-items: center;
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1px solid #CECECE;
@@ -142,6 +164,7 @@ h2 ,
 
 .corpo-col {
     padding: 30px 20px 30px 20px;
+    line-height: 35px;
 }
 
 .price {
@@ -151,7 +174,6 @@ h2 ,
 
 .period-plan {
     color: #CECECE;
-    line-height: 45px;
 }
 
 .first-list {
@@ -164,12 +186,20 @@ h2 ,
     justify-content: center;
 }
 
+
+
+
+
 .separatore-col {
     height: 1px;
     background-color: #CECECE;
     width: 70px;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+.fa-check {
+    color:  #0162FE;
 }
 
 .first-grid .row {
@@ -202,6 +232,14 @@ h2 ,
     color: white;
     padding: 9px 13px;
 }
+
+
+
+
+
+
+
+
 
 
 /*seconda sezione*/
@@ -282,11 +320,6 @@ h2 ,
 .nav-block ul {
     list-style: none;
     line-height: 34px;
-}
-
-.nav-block h3 {
-    margin-bottom: 20px;
-    font-size: 25px;
 }
 
 .footer-bottom {
