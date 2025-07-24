@@ -169,16 +169,33 @@ h1 {
 
 .big-container {
     width: 60%;
-    /* debug*/
-    background-color: blueviolet;
-    height: 150px;
+    
+    
+}
+
+.big-container img {
+    max-width: 100%;
 }
 
 .small-container {
     width: 40%;
-    /* debug*/
-    background-color: blueviolet;
-    height: 150px;
+    padding-top: 40px;
+    padding-left: 40px;
+    padding-right: 65px;
+}
+
+h3 {
+    padding-bottom: 18px;
+}
+
+.btn-vuoto {
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    padding: 9px 13px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
 }
 
 
