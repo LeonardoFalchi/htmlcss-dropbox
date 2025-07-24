@@ -188,9 +188,19 @@ h2 ,
 .col-bottom {
     width: 100%;
     border: 1px solid #CECECE;
-    /* debug*/
+}
 
-    height: 150px;
+.top-corpo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn-nomargin{ 
+    background-color: #0162FE;
+    border: none;
+    color: white;
+    padding: 9px 13px;
 }
 
 
@@ -218,10 +228,6 @@ h2 ,
     padding-right: 65px;
 }
 
-h3 {
-    padding-bottom: 18px;
-}
-
 .btn-vuoto {
     background-color: white;
     border: 1px solid black;
@@ -243,10 +249,14 @@ h3 {
 
 .second-grid .col {
     width: calc((100% / 3) - 100px /3);
+}
 
-    /* debug*/
-    background-color: red;
-    height: 300px;
+.col img {
+    width: 100%;
+}
+
+.second-grid {
+    margin-bottom: 100px;
 }
 
 
