@@ -7,10 +7,12 @@
     
 }
 
-a {
+.link-normale {
     text-decoration: none;
     color: black;
 }
+
+
 
 body {
     font-family:"Open Sans", sans-serif;
@@ -19,23 +21,25 @@ body {
 .section-container {
     width: 60%;
     margin: 0 auto;
-    margin-top: 50px;
+    padding-top: 170px;
     margin-bottom: 50px;
 }
 
 /* header */
 .nav-bar {
     height: 80px;
-    color: white;
+    background-color: white;
     display: flex;
     align-items: center;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
 }
 
 .nav-left {
     width: 50%;
     display: flex;
     align-items: center;
-    
 }
 
 #logo {
@@ -64,30 +68,18 @@ body {
     list-style: none;
 }
 
-.n {
-    background-color: #0162FE;
-    padding: 5px 8px;
-    margin-right: 20px;
-}
-
-
-
-
-
 
 /* jumbotron */
 .jumbotron {
     background-color: #b4cfe7;
     width: 100%;
-    height: 580px;
-    
-
+    height: 670px;
+    padding: 100px;
 }
-
 
 .jumbotron-container {
     width: 70%;
-    height: 580px;
+    height: 670px;
     margin: 0 auto;
 }
 
@@ -135,6 +127,50 @@ h1 {
 
 
 /*prima sezione*/
+h2 ,
+.fatturazione {
+    padding-bottom: 50px;
+}
+
+.titolo-col {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #CECECE;
+}
+
+.corpo-col {
+    padding: 30px 20px 30px 20px;
+}
+
+.price {
+    font-weight: bold;
+
+}
+
+.period-plan {
+    color: #CECECE;
+    line-height: 45px;
+}
+
+.first-list {
+    padding-bottom: 25px;
+    padding-top: 35px;
+}
+
+.corpo-col .btn {
+    display: flex;
+    justify-content: center;
+}
+
+.separatore-col {
+    height: 1px;
+    background-color: #CECECE;
+    width: 70px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
 
 .first-grid .row {
 
@@ -145,18 +181,16 @@ h1 {
 
 .first-grid .col {
     width: calc((100% / 3) - 100px /3);
+    border: 1px solid #CECECE;
 
-    /* debug*/
-    background-color: red;
-    height: 300px;
 }
 
 .col-bottom {
     width: 100%;
+    border: 1px solid #CECECE;
     /* debug*/
-    background-color: red;
-    height: 150px;
 
+    height: 150px;
 }
 
 
