@@ -279,22 +279,27 @@ h2 ,
     justify-content: space-between;
 }
 
-.nav-block {
-    
+.nav-block ul {
+    list-style: none;
+    line-height: 34px;
+}
+
+.nav-block h3 {
+    margin-bottom: 20px;
+    font-size: 25px;
 }
 
 .footer-bottom {
     width: 70%;
     margin: 0 auto;
     height: 100px;
-    display: flex;
-    align-items: center;
 }
 
-.parte-language {
-    height: 100px;
-    width: 15%;
-    border-top: 1px solid gray;
-    line-height: 100px;
+.separatore-footer {
+    height: 1px;
+    background-color: #CECECE;
+    width: 90px;
+    margin-top: 50px;
+    margin-bottom: 30px;
 }
 
